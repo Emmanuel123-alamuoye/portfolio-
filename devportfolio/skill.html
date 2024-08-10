@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potfolio</title>
+</head>
+<link rel="stylesheet" href="page.css">
+<body>
+    <nav>
+    <div class="logo">
+        <h1>D.O.E<span>GRAPHIC DESIGNS</span></h1>
+    </div>
+    <ul id="menuList">
+        <li><a href="page.html" style="--i:1;">home</a></li>
+        <li><a href="about.html"style="--i:2;">about</a></li>
+        <li><a href="design.html"style="--i:3;">design</a></li>
+        <li><a href="skill.html"style="--i:4;">skils</a></li>
+        <li><a href="testimonial.html"style="--i:5;">testimonial</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+    </div>
+    </nav>
+    <div class="skill">
+    <h1>SKILLS</h1>
+
+        <label >Graphic Design</label>
+        <meter min="0" max="100" value="95"low="30"high="60"optimum="80" class="we1">cra</meter>
+        <br>
+        <label >Photography</label>
+        <meter min="0" max="100" value="40"low="30"high="60"optimum="80"class="we2"></meter>
+        <br>
+        <label >video Grapher</label>
+        <meter min="0" max="100" value="20"low="30"high="60"optimum="80"class="we3"></meter>
+        <br>
+        <label >Photo Editing</label>
+        <meter min="0" max="100" value="60"low="30"high="60"optimum="80"class="we4"></meter>
+    </div>
+    <div class="design ">
+        <i class="fa-solid fa-pencil-mechanical"></i>
+        <h1>GRAPHIC DESIGN</h1>
+           <P>
+            AS a Graphic Designer i can bring together line, color, shape,
+            space, texture, typography, scale dominace and emphasis and hermony
+            to create visually appealing and well-struture design
+            </p>
+            </div>
+            <script src="https://kit.fontawesome.com/1ab5eb52bd.js" crossorigin="anonymous"></script> 
+            <script>
+                let menuList=document.getElementById("menuList")
+                menuList.style.maxHeight="0px";
+        
+                function toggleMenu(){
+                    if(menuList.style.maxHeight=="0px")
+                    {
+                        menuList.style.maxHeight="300px"
+                    }
+                    else{
+                        menuList.style.maxHeight="0px"
+                    
+                }
+            }
+            </script>  
+            </body>
+            </html>
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potfolio</title>
+</head>
+<link rel="stylesheet" href="page.css">
+<body>
+    <nav>
+    <div class="logo">
+        <h1>D.O.E<span>GRAPHIC DESIGNS</span></h1>
+    </div>
+    <ul id="menuList">
+        <li><a href="page.html" style="--i:1;">home</a></li>
+        <li><a href="about.html"style="--i:2;">about</a></li>
+        <li><a href="design.html"style="--i:3;">design</a></li>
+        <li><a href="skill.html"style="--i:4;">skils</a></li>
+        <li><a href="testimonial.html"style="--i:5;">testimonial</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+    </div>
+    </nav>
+    <img src="Screenshot_20240806-053631.jpg" alt="" class="image">
+    <div class="content2">
+       <h1>ABOUT <span>ME</span></h1> 
+       <p>
+        I have other skill aside Graphic Design skill. i am also a photographer/videoGrapher but i base more on graphic design than 
+        others  i can help you with nice designs for your brand.As a Graphic Designer i can helping
+        you create designs such as the Brand design (Visual identity design/corporate design )Publication graphic design,Packaging design,
+        Advertising design, Marketing, 3D Graphic design
+
+
+         </p>
+         <div class="contact">
+            <h1>CONTACT <span>ME</span></h1>
+            <P>Phone number:[+234]7049369853,[+234]7084520124</P>
+            <p>Email:esechieod@gmail.com</p>
+            
+            <a href="#"style="--i:4;"><i class="fa-brands fa-instagram"></a></i></a>
+            <a href="#"style="--i:3;"><i class="fa-brands fa-linkedin"></a></i>
+            <a href="#"style="--i:3;"><i class="fa-solid fa-x"></a></i>
+         </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1ab5eb52bd.js" crossorigin="anonymous"></script> 
+    <script>
+        let menuList=document.getElementById("menuList")
+        menuList.style.maxHeight="0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="300px"
+            }
+            else{
+                menuList.style.maxHeight="0px"
+            
+        }
+    }
+</script>  
+    </body>
+    </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potfolio</title>
+</head>
+<link rel="stylesheet" href="page.css">
+<body>
+    <nav>
+    <div class="logo">
+        <h1>D.O.E<span>GRAPHIC DESIGNS</span></h1>
+    </div>
+    <ul id="menuList">
+        <li><a href="page.html" style="--i:1;">home</a></li>
+        <li><a href="about.html"style="--i:2;">about</a></li>
+        <li><a href="design.html"style="--i:3;">design</a></li>
+        <li><a href="skill.html"style="--i:4;">skils</a></li>
+        <li><a href="testimonial.html"style="--i:5;">testimonial</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+    </div>
+    </nav>
+    <div class="images">
+        <div class="first">
+    <img src="Screenshot_20240806-203310.jpg" alt="" class="image1">
+    <p>Advert Flyer/Price List</p>
+    <img src="Screenshot_20240806-203323.jpg" alt="" class="image2">
+    <p>Logo design</p>
+        </div>
+    <div class="second">
+    <img src="Screenshot_20240806-203340.jpg" alt="" class="image3">
+    <p>Flyer Design</p>
+    <img src="Screenshot_20240806-215512.jpg" alt="" class="image4">
+    <p>Sticker Design</p>
+</div>
+</div>
+    <script src="https://kit.fontawesome.com/1ab5eb52bd.js" crossorigin="anonymous"></script> 
+    <script>
+        let menuList=document.getElementById("menuList")
+        menuList.style.maxHeight="0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="300px"
+            }
+            else{
+                menuList.style.maxHeight="0px"
+            
+        }
+    }
+    </script>  
+    </body>
+    </html>
